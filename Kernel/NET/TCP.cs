@@ -362,6 +362,8 @@ namespace MOOS.NET
             phdr->Source = conn.LocalAddr.AddressV4;
             phdr->Dest = conn.RemoteAddr.AddressV4;
 
+            phdr->Bits1 = 0;
+            phdr->Bits2 = 0;
             phdr->Reserved = 0;
             phdr->Protocol = (byte)IPv4.IPv4Protocol.TCP;
             phdr->Length = Ethernet.SwapLeftRight((ushort)((uint)end - (uint)buffer));
