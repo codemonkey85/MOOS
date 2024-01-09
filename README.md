@@ -15,10 +15,10 @@
 
 # MOOS
 
-MOOS (To Make **M**y **O**wn **O**perating **S**ystem Project) is a C# x64 operating system compiler with the .NET 7 Native AOT technology.
+MOOS (**M**y **O**wn **O**perating **S**ystem Project) is a C# x64 operating system compiler with the .NET 7 Native AOT technology.
 
 ## Building
-For information on compiling MOOS, please read the [build wiki page](https://github.com/nifanfa/MOOS/wiki/How-do-you-build-or-compile-MOOS%3F).
+For information on compiling MOOS, please read the [build wiki page]([https://github.com/nifanfa/MOOS/wiki/How-do-you-build-or-compile-MOOS%3](https://github.com/nifanfa/MOOS/wiki)F).
 
 ### Build requirements
 - VMware Workstation Player - https://www.vmware.com/products/workstation-player.html
@@ -52,7 +52,7 @@ For information on compiling MOOS, please read the [build wiki page](https://git
 | DOOM(doomgeneric) | 🟩 | 🟩 |
 | Intel® Gigabit Ethernet Network | 🟩 | 🟩 |
 | Realtek RTL8111E | 🟩 | 🟩 |
-| ExFAT | 🟩 | 🟩 |
+| ExFAT | 🟩 | ⬜ |
 | I/O APIC | 🟩 | 🟩 |
 | Local APIC | 🟩 | 🟩 |
 | SATA | 🟩 | ⬜ |
