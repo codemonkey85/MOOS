@@ -1,6 +1,12 @@
 ﻿{
   "profiles": {
-    "QEMU(click this dropdown menu for more build options)": {
+    "VMware(click this dropdown menu for more build options)": {
+      "commandName": "Executable",
+      "executablePath": "cmd.exe",
+      "commandLineArgs": "/c dotnet publish -p:vm=vmware -r win-x64 -c debug MOOS -p:EmitLegacyAssetsFileItems=true",
+      "workingDirectory": "..\\"
+    },
+    "QEMU": {
       "commandName": "Executable",
       "executablePath": "cmd.exe",
       "commandLineArgs": "/c dotnet publish -p:vm=qemu -r win-x64 -c debug MOOS -p:EmitLegacyAssetsFileItems=true",
@@ -18,10 +24,10 @@
       "commandLineArgs": "/c dotnet publish -p:vm=qemutap -r win-x64 -c debug MOOS -p:EmitLegacyAssetsFileItems=true",
       "workingDirectory": "..\\"
     },
-    "VMware": {
+    "VMware Workstation": {
       "commandName": "Executable",
       "executablePath": "cmd.exe",
-      "commandLineArgs": "/c dotnet publish -p:vm=vmware -r win-x64 -c debug MOOS -p:EmitLegacyAssetsFileItems=true",
+      "commandLineArgs": "/c dotnet publish -p:vm=vmwareworkstation -r win-x64 -c debug MOOS -p:EmitLegacyAssetsFileItems=true",
       "workingDirectory": "..\\"
     }
   }
